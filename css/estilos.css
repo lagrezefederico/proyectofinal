@@ -10,6 +10,27 @@ ul {
   list-style: none; }
 
 /*Pricing Inicio */
+
+
+.btn-calcula {
+  width: 18%;
+  height: 49px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+} 
+
+.calcular {
+  width: 45% !important;
+  padding: 0.8rem;
+  margin-right: 16px !important;
+  border-radius: 8px;
+  height: 10%;
+  background-color: white !important;
+  border: 1px solid white;
+  color: black !important;
+}
+
+
 .precios .gratis .card-header {
   background-color: #038819; }
 
@@ -106,7 +127,7 @@ ul {
     align-items: center; }
 
 .title-desk {
-  margin-top: 240px; }
+  margin-top: 140px; }
 
 .nav-link {
   font-size: 1.3rem;
@@ -380,7 +401,7 @@ ul {
   padding-bottom: 2rem; }
 
 .container input {
-  width: 75%;
+  width: 100%;
   padding: 0.8rem;
   border-radius: 8px;
   height: 10%;
@@ -613,4 +634,23 @@ input.submitbutton.ripplelink {
     margin-top: 0px !important; }
   .pricepacientes {
     height: 50px !important;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+    .btn-calcula {
+      width: 80% !important;
+      height: 44px;
+      margin-top: 16px;
+      border-radius: 5px;
+    } 
+    
+    .calcular {
+      width: 80% !important;
+      border-radius: 8px;
+      height: 20%;
+      background-color: white !important;
+      border: 1px solid white;
+      color: white;
+      padding: 22px !important;
+     margin: 0px !important;
+     margin-top: 46px !important;
+    }
+  }

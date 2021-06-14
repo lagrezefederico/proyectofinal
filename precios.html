@@ -6,9 +6,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta charset="UTF-8">
   <meta name="description" content="Plataforma online para nutricionistas y profesionales del deporte">
+  <script src="js/calculador.js"></script>
   <meta name="keywords" content="nutricion, plataforma, online, deporte, seguimiento, nutricionista, pacientes, "/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <!--bootsrap !-->
@@ -55,15 +57,23 @@
         <h2 class="title-desk">Encuentra el plan adecuado para tu negocio</h2>
         <h3>Elegi cuantos pacientes va tener tu plan</h3>
         <p>Antrosport ofrece dos paquetes de suscripción adaptados a tus necesidades y a tu volumen mensual de clientes. Ve cuál es el mejor paquete para ti</p>
-        <input type="range" name="range" step="50" min="100" max="1000" value="" onchange="rangePrimary.value=value">
-        <input type="text" id="rangePrimary" placeholder="Cantidad de pacientes" class="pricepacientes" />
+     
+          <div class="row">
+            <div class="col m-sm-auto mt-5">
+              <input id="calculador_pacientes" type="number" class="calcular" placeholder="Ingresa la cantidad de pacientes">
+              <button type="submit" class="btn btn-primary btn-calcula">Calcular</button>
+              <p id="monto_calculado">Monto en U$D:</p>
+            </div>
+    
+          </div>
+     
 
       </div>
     </section>
 
-    <div class="container">
-      <div class="card-deck mb-7 p-5 text-center precios">
-
+    <div id="suscripciones" class="container">
+      <div id="flexbox_suscripciones" class="card-deck mb-7 p-5 text-center precios">
+<!-- 
 
 
         <div class="card mb-4 shadow-sm gratis">
@@ -116,7 +126,7 @@
         </div>
 
 
-
+ -->
 
 
       </div>
